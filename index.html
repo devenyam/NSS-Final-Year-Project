@@ -11,8 +11,10 @@
   <body>
     <div class="container">
       <div class="header">
-        <img class="logo" src="./nss.png" alt="nss logo" />
-        <p>National Service Secretariat Ghana</p>
+        <div class="logo-wrapper">
+          <img class="logo" src="./nss.png" alt="nss logo" />
+          <p>National Service Secretariat Ghana</p>
+        </div>
 
         <ul class="navs">
           <li><a href="#">Home</a></li>
@@ -33,32 +35,39 @@
         <form action="" method="post">
           <fieldset>
             <legend>Section A</legend>
-            <div class="section-a">
-              <label for="nss-number">NSS Number:</label>
-              <input
-                id="nss-number"
-                name="NSSNumber"
-                type="number"
-                required
-              /><br />
-              <label for="pin">Pin:</label>
-              <input id="pin" name="Pin" type="password" required /><br />
-              <label for="e-zwich">E-zwich:</label>
-              <input id="e-zwich" name="E-zwich" type="number" required /><br />
-              <label for="ssnit-number">SSNIT Number:</label>
-              <input
-                id="ssnit-number"
-                name="ssnitNumber"
-                type="password"
-              /><br />
-              <label for="nationalid-number">National ID Number:</label>
-              <input
-                id="nationalid-number"
-                name="NationalIdNumbi"
-                type="text"
-              /><br />
+            <div class="first-section">
+              <div class="section-a">
+                <label for="nss-number">NSS Number:</label>
+                <input
+                  id="nss-number"
+                  name="NSSNumber"
+                  type="number"
+                  required
+                /><br />
+                <label for="pin">Pin:</label>
+                <input id="pin" name="Pin" type="password" required /><br />
+                <label for="e-zwich">E-zwich:</label>
+                <input
+                  id="e-zwich"
+                  name="E-zwich"
+                  type="number"
+                  required
+                /><br />
+                <label for="ssnit-number">SSNIT Number:</label>
+                <input
+                  id="ssnit-number"
+                  name="ssnitNumber"
+                  type="password"
+                /><br />
+                <label for="nationalid-number">National ID Number:</label>
+                <input
+                  id="nationalid-number"
+                  name="NationalIdNumbi"
+                  type="text"
+                /><br />
+              </div>
+              <div class="passport"></div>
             </div>
-            <div class="passport"></div>
           </fieldset>
 
           <fieldset>

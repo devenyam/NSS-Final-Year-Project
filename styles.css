@@ -16,10 +16,6 @@
   width: 100%;
   height: 70px;
   background-color: rgb(39, 147, 210);
-  /* display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 0.5rem; */
 }
 
 .logo {
@@ -136,6 +132,7 @@ input {
 }
 
 .section-b input {
+  clear: both;
   border: none;
   width: 70%;
   border-bottom: 1px solid #555;
@@ -206,4 +203,32 @@ button[type='reset']:hover {
   color: white;
   margin-top: 40px;
   text-align: center;
+}
+
+@media screen and (max-width: 1367px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo-wrapper p {
+    font-size: 12px;
+  }
+
+  .main {
+    width: 70%;
+  }
+
+  .first-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 1018px) {
+  .logo-wrapper p {
+    display: none;
+  }
 }
