@@ -128,7 +128,7 @@ input {
   margin: 10px;
   height: 200px;
   width: 150px;
-  background-color: coral;
+  background-color: rgb(231, 183, 93);
 }
 
 .section-b input {
@@ -185,13 +185,14 @@ button[type='reset'] {
   cursor: pointer;
   font-weight: 600;
   font-size: 16px;
-  float: left;
+  float: right;
   transition: all 0.5s ease-in-out;
 }
 
 button[type='submit']:hover,
 button[type='reset']:hover {
-  transform: scale(1.1);
+  transform: scale(0.95);
+  opacity: 0.8;
   letter-spacing: 1px;
 }
 
